@@ -51,14 +51,36 @@ header {
     font-size: 70px;
     line-height: 85px;
     color: #514988;
-}
-
-.timer {
-    display: flex;
+    display: inline-flex;
     gap: 40px;
 }
 
-.timer h3 {
-    margin: 0;
+.tickets {
+    color: #F3C61F;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+}
 
+#column2 {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+button {
+    margin-top: 100px;
+    background: #514988;
+    color: white;
+    border-radius: 20px;
+    border: 0px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    width: 596px;
+    height: 148px;
+}
+
+button:hover{
+    background: #F3C61F;
 }
